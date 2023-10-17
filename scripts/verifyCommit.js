@@ -8,6 +8,7 @@ const fs = require('fs')
 //   .trim()
 const msg = fs.readFileSync(process.argv[2], 'utf-8').trim() // 索引 2 对应的 commit 消息文件
 const commitRE = /^(feat|fix|docs|style|refactor|perf|test|workflow|build|ci|chore|release|workflow)(\(.+\))?: .{1,100}/
+console.log(111,commitRE)
 if (!commitRE.test(msg)) {
   /* eslint-disable */
   console.error(

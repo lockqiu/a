@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // const childProcess = require('child_process')
 const chalk = require('chalk')
-const fs = require('fs')
+const fs = require('fs') 
 // const email = childProcess
 //   .execSync('git config user.email')
 //   .toString()

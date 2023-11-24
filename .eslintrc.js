@@ -94,16 +94,16 @@ module.exports = {
         math: 'always'
       }
     ],
-    'vue/max-attributes-per-line': [
-      1,
-      {
-        singleline: 3,
-        multiline: {
-          max: 1,
-          allowFirstLine: false
-        }
-      }
-    ],
+    // 'vue/max-attributes-per-line': [
+    //   1,
+    //   {
+    //     singleline: 3,
+    //     multiline: {
+    //       max: 1,
+    //       allowFirstLine: false
+    //     }
+    //   }
+    // ],
     'vue/no-parsing-error': [2, { 'x-invalid-end-tag': false }],
     'vue/no-v-html': 0
     // "vue/html-quotes": [2, "single", { "avoidEscape": true } ],
